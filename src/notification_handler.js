@@ -68,5 +68,7 @@ function getTwilioClient() {
     config.TWILIO_NOTIFICATION_SERVICE_SID
   );
 
+  console.log('config', config.TWILIO_API_KEY, config.TWILIO_API_SECRET, config.TWILIO_ACCOUNT_SID, config.TWILIO_NOTIFICATION_SERVICE_SID)
+
   return service;
 }
